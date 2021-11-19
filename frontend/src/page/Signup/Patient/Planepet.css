@@ -1,0 +1,134 @@
+.header {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.plan {
+  padding: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basic_plan {
+  width: px;
+  margin: 0 8px;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: 1.5;
+  color: #555555;
+}
+
+.basic_plan-hightlighted {
+  width: 300px;
+  margin: 0 8px;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: 1.5;
+  color: #555555;
+}
+
+.basic-plan_header {
+  padding: 25px;
+  background: #009578;
+  color: #ffff;
+}
+
+.basic-plan_title .basic_plan_summary {
+  margin: 0;
+  text-align: center;
+}
+
+.basic-plan_title {
+  /* padding: 0 50px 10px; */
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.basic-plan_summary {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.basic-plan_desription {
+  padding: 25px;
+}
+
+.basic-plan_list {
+  padding: 0;
+  margin: 0;
+}
+
+.basic-plan_list > li {
+  list-style: none;
+  margin: 0;
+  padding-left: 25px;
+  position: relative;
+  font-size: 0.9em;
+}
+
+.basic-plan_list > li:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+
+.basic-plan_list > li::before {
+  content: "\2714";
+  color: #009578;
+  position: absolute;
+  left: 0;
+}
+
+.price-plan_actions {
+  padding: 25px;
+  border-top: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-text_button {
+  display: inline-block;
+  margin: 15px auto;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #009578;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #009576;
+  text-transform: uppercase;
+  letter-spacing: 0.02rem;
+}
+
+.price-text_button:hover {
+  background-color: #009578;
+  color: #ffffff;
+}
+.price-plan_cost {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  color: #000000;
+}
+.price-text {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.hightlighted-header {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  background: #007c64;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
+}

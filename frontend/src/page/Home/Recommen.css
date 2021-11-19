@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+.Card{
+
+    width: 18%;
+    height: 20rem;
+    padding: 60px 30px;
+  
+    background-color: #D9DDF7;
+    margin: 170px 0 0 120px;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+
+
+}

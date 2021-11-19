@@ -1,0 +1,9 @@
+.container {
+  height: 400px;
+  width: 650px !important;
+}
+
+.drop_img {
+  margin: 10% 0 0 0;
+  width: 650px !important;
+}

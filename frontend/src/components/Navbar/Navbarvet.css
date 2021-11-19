@@ -1,0 +1,11 @@
+.maim-header {
+  background-color: #403897;
+  padding: 5%;
+  width: 100%;
+  position: absolute;
+}
+
+.button {
+  left: 80%;
+  color: red;
+}

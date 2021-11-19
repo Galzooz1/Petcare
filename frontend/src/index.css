@@ -1,0 +1,14 @@
+@import "react-slideshow-image/dist/styles.css";
+
+@font-face {
+  font-family: "HaguroBold";
+  src: local("HaguroBold"),
+    url("./font/Haguro/Haguro-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Falose";
+  src: local("Falose"), url("./font/Falose/Falose.ttf") format("truetype");
+  font-weight: bold;
+}

@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cover {
+  margin-top: 100px;
+  width: 100%;
+  height: 840px;
+  background-image: url("../../image/pet1.png");
+  background-size: 68% 100%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.cover .box {
+  width: 30%;
+  padding-top: 10%;
+}
+.cover p {
+  height: 100%;
+  width: 700px;
+  color: black;
+  font-size: 30px;
+  font-family: "Montserrat";
+  margin: 50px 50px;
+  line-height: 35px;
+}
+.cover header {
+  margin-left: 10%;
+  font-size: 50px;
+  width: 750px;
+  font-weight: bold;
+  color: #7f84e8;
+  font-family: "Montserrat";
+}
+
+.about {
+  width: 100%;
+  height: 800px;
+  margin: 10% 0 0 15%;
+  display: flex;
+}
+
+.about_contact_left {
+  height: 100%;
+  width: 650px;
+}
+
+.about_contact_left .about_image_one {
+  margin: 0 0 0 50px;
+  height: 40%;
+  width: 550px;
+}
+
+.about_contact_right {
+  margin-left: 11%;
+  height: 100%;
+}
+
+.about_image_two {
+  width: 550px !important;
+  height: 50%;
+}
+
+.about header {
+  font-size: 30px;
+
+  padding: 3% 4% 0 3%;
+  font-weight: bold;
+  color: #7f84e8;
+  font-family: "Montserrat";
+}
+
+.about p {
+  line-height: 45px;
+  padding-top: 5%;
+  height: 650px;
+  padding-left: 4%;
+  font-size: 30px;
+  font-family: "Montserrat";
+}
+
+.about .about_image_two {
+  height: 40%;
+  width: 50%;
+}
+
+.about .about_contact_right p {
+  line-height: 45px;
+  padding-top: 1%;
+  height: 500px;
+  width: 500px;
+  padding-left: 2%;
+  font-size: 30px;
+  font-family: "Montserrat";
+}
+.vet {
+  background-image: url("../../image/vet.png");
+  background-repeat: no-repeat;
+  background-size: 34% 660px;
+  background-position: 90% 70%;
+}
+.vet .header_vet {
+  margin: 5% 35%;
+  font-size: 60px;
+  font-family: "Lobster";
+}
+
+.veterinarian p {
+  padding: 2% 0 0 5%;
+  margin: 0 0 15% 5%;
+  width: 850px;
+
+  font-family: "Montserrat";
+  font-size: 30px;
+  line-height: 1.2em;
+}
+.recommen header {
+  margin: 19% 35% -2%;
+  font-size: 60px;
+  font-family: "Lobster";
+}
+@media screen and (max-width: 750px) {
+  .cover {
+    background-size: 100%;
+    height: 300px;
+    opacity: 0.5;
+  }
+
+  .cover .box {
+    width: 100%;
+    padding-top: 0;
+  }
+}

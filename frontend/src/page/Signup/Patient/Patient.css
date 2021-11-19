@@ -1,0 +1,18 @@
+.patient header {
+  text-align: center;
+  font-size: 30px;
+  margin: 0 0 6%;
+}
+
+.patient p {
+  text-align: center;
+}
+
+.patient {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.nextbutton {
+  margin: 5% 0 0 80%;
+}

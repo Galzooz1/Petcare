@@ -1,0 +1,32 @@
+.credentials_main {
+  width: 600px;
+  margin: 10px 160px;
+}
+
+.credentials_header {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.license_header {
+  font-size: 25px;
+  margin: 0 0 0 -4px;
+  padding: 1%;
+}
+
+.input_list {
+  margin: 10px 0 0 1px;
+}
+
+.education .education_header {
+  margin: 2% -0.1%;
+  font-size: 25px;
+}
+
+.education .education_subtitle {
+  margin: 2% -0.1%;
+}
+
+.country_code {
+  width: 30% !important;
+}

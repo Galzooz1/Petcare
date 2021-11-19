@@ -1,0 +1,18 @@
+.account header {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 0 5px;
+}
+
+.account p {
+  text-align: center;
+}
+
+.account_input {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.nextbutton {
+  margin: 5% 0 0 80%;
+}
