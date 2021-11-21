@@ -12,22 +12,16 @@ import "./Navbarpet.css"
 
 const Navbarpet = () => {
 
-
     const useStyles = makeStyles({
-
         root: {
             width: "50%",
             borderRadius: "40px 40px 40px",
             margin: "7rem 33rem",
-
             boxShadow: "0 15px 50px 0.17px rgba(0, 0, 0, 0.05)",
             position: "absolute",
-
             "& .MuiStepIcon-root.MuiStepIcon-active": {
                 color: "#403897"
             }
-
-
         }
     })
 
@@ -43,11 +37,8 @@ const Navbarpet = () => {
         return ["Acoount", "Pet", "Location", "Plan", "Payment"]
     }
     const steps = getSteps();
-
-
     function getStepsContent(stepIndex) {
         switch (stepIndex) {
-
             case 0:
                 return <Accountpet />;
             case 1:
@@ -58,7 +49,6 @@ const Navbarpet = () => {
                 return <Planepet />;
             case 4:
                 return <Paypet />;
-
             default: return "Unchnown Step";
         }
 

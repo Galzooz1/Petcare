@@ -10,7 +10,7 @@ import {
     Select,
     TextArea,
 } from 'semantic-ui-react'
-function Phonevet() {
+function Phonevet({setCurrentStep}) {
 
     return (
         <div className="phone">
@@ -44,7 +44,7 @@ function Phonevet() {
                     <Button type='submit'>Verify phone</Button>
                 </Form>
 
-
+                <Form.Button onClick={() => {setCurrentStep(cur => cur - 1) }} className="backbutton">Back</Form.Button>
             </div>
         </div>
     )

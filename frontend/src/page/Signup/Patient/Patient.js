@@ -24,7 +24,7 @@ class Patients extends Component {
                 <div className="patient">
                     <header>Tell us about your pet!!</header>
 
-                    <div className="patientt_input">
+                    {/* <div className="patientt_input">
                         <Form>
 
                             <Form.Field>
@@ -60,7 +60,7 @@ class Patients extends Component {
                         </Form>
 
 
-                    </div>
+                    </div> */}
                     <Form.Button className="nextbutton">Next</Form.Button>
                 </div>
             </div>
